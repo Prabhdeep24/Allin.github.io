@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  overflow: hidden;
+  background: #f2f2f2;
+  
+}
+#box1{
+position: relative;
+}
+#box2{
+position: relative;
+bottom: 80px;
+z-index:40;
+}
+.box3{
+    color: #fa4299;
+    font-weight: bold;
+}
+#box4{
+    border: 1px solid #fa4299;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    position: relative;
+    width:55px;
+    height: 45px;
+    padding:13px;
+    z-index:60;
+    right:15px;
+    margin-top:40px;
+ }
+
+.wrapper{
+  right: 40px;
+  margin-left:600px;
+  margin-top : 50px;
+  width: 370px;
+  background: #fff;
+  border-radius: 15px;
+  /* box-shadow: 0px 15px 20px rgba(0,0,0,0.1); */
+  height:590px;
+  /* pointer-events: none; */
+  /* transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55); */
+}
+
+.wrapper .head-text{
+  line-height: 30px;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  padding: 0 50px;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+  height: 250px;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+.vit{
+    font-size: 15px;
+}
+.wrapper .chat-box{
+  padding: 20px 20px 0px 20px;
+  width: 100%;
+}
+
+.chat-box form{
+  padding: 35px 15px;
+  margin: px 0;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  position: relative;
+  background: white;
+  height:350px;
+}
+.chat-box form .field{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border : 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 12px;
+    padding:5px;
+  }
+
+.chat-box form .prabh button{
+  border: none;
+  outline: none;
+  height: 36px;
+  width: 280px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  /* transition: all 0.3s ease; */
+  margin: 30px 0px 20px 11px;
+  border-radius: 20px;
+  
+}
+.chat-box form .prabh button:hover{
+  color:black;
+}
+
